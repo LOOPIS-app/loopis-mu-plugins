@@ -4,8 +4,6 @@
  * Description: Configuring details and filter for debug.log
  * Authors: JH, HH
  * Version: 0.1
- * 
- * Placed in mu-plugins = runs early and cannot be deactivated by accident.
  */
 
 // Prevent direct access
