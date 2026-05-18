@@ -2,8 +2,8 @@
 /**
  * Plugin Name: WPUM cat fix
  * Description: Stop post category from resetting to default when editing a post using WPUM Frontend Posting.
- * Author: HH
- * Version: 1.0
+ * Author:      HH
+ * Version:     1.0
  */
 
 // Prevent direct access

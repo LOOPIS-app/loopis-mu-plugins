@@ -2,8 +2,8 @@
 /**
  * Plugin Name: WPUM tab fix
  * Description: Customize the WPUM tabs for profile and settings
- * Author: JH
- * Version: 0.9
+ * Author:      JH
+ * Version:     0.9
  */
 
 // Prevent direct access
