@@ -1,9 +1,12 @@
 <?php
 /**
- * Plugin Name: LOOPIS env loader
- * Description: Loads testing environment variables from .env file in WordPress root.
+ * Plugin Name: LOOPIS Env Loader
+ * Description: Configuration of environment variables not used in production
+ * Version:     0.01
  * Author:      The Develoopers
- * Version:     1.0
+ * Author URI:  https://loopis.org
+ * License:     GPL-3.0-or-later
+ * License URI: https://www.gnu.org/licenses/gpl-3.0.html
  */
 
 // Prevent direct access

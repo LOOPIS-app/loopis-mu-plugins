@@ -1,9 +1,12 @@
 <?php
 /**
- * Plugin Name: WPUM tab fix
- * Description: Customize the WPUM tabs for profile and settings
- * Author:      JH
- * Version:     0.9
+ * Plugin Name: WPUM Tab Fix
+ * Description: Configuration of WPUM tabs for profile and settings
+ * Version:     0.01
+ * Author:      The Develoopers
+ * Author URI:  https://loopis.org
+ * License:     GPL-3.0-or-later
+ * License URI: https://www.gnu.org/licenses/gpl-3.0.html
  */
 
 // Prevent direct access
