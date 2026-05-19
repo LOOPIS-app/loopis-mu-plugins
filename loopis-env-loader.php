@@ -2,7 +2,7 @@
 /**
  * Plugin Name: LOOPIS Env Loader
  * Description: Configuration of environment variables not used in production
- * Version:     0.01
+ * Version:     0.02
  * Author:      The Develoopers
  * Author URI:  https://loopis.org
  * License:     GPL-3.0-or-later
@@ -47,6 +47,7 @@ $loopis_env_constants = [
     'LOOPIS_STRIPE_SECRET_KEY'              => '',
     'LOOPIS_STRIPE_WEBHOOK_SECRET_MEMBERSHIP' => '',
     'LOOPIS_STRIPE_WEBHOOK_SECRET_COINS'    => '',
+    'ADMIN_PASS'    => '',
 ];
 
 foreach ($loopis_env_constants as $loopis_const_name => $loopis_const_fallback) {
