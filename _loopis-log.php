@@ -1,9 +1,12 @@
 <?php
 /**
  * Plugin Name: LOOPIS Log
- * Description: Configuring details and filter for debug.log
- * Authors: JH, HH
- * Version: 0.1
+ * Description: Configuration of details, timestamp and filter for debug.log
+ * Version:     0.01
+ * Author:      The Develoopers
+ * Author URI:  https://loopis.org
+ * License:     GPL-3.0-or-later
+ * License URI: https://www.gnu.org/licenses/gpl-3.0.html
  */
 
 // Prevent direct access

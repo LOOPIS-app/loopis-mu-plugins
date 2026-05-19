@@ -1,9 +1,12 @@
 <?php
 /**
- * Plugin Name: WPUM tab fix
- * Description: Customize the WPUM tabs for profile and settings
- * Author: JH
- * Version: 0.9
+ * Plugin Name: WPUM Tab Fix
+ * Description: Configuration of WPUM tabs for profile and settings
+ * Version:     0.01
+ * Author:      The Develoopers
+ * Author URI:  https://loopis.org
+ * License:     GPL-3.0-or-later
+ * License URI: https://www.gnu.org/licenses/gpl-3.0.html
  */
 
 // Prevent direct access
@@ -15,9 +18,8 @@ if (!defined('ABSPATH')) {
 add_filter( 'wpum_get_registered_profile_tabs', 'my_wpum_get_registered_profile_tabs' );
 function my_wpum_get_registered_profile_tabs( $tabs ) {
 	$tabs['coins']['name'] = esc_html( '👛' );
-	$tabs['posts']['name'] = esc_html( '⬆' );
-	$tabs['fetched']['name'] = esc_html( '⬇' );
-	$tabs['removed']['name'] = esc_html( '🗑' );
+	$tabs['economy']['name'] = esc_html( '🧮' );
+	$tabs['posts']['name'] = esc_html( '🎁' );
 	$tabs['about']['name'] = esc_html( '⚙' );
 	return $tabs; }
 
@@ -25,10 +27,9 @@ function my_wpum_get_registered_profile_tabs( $tabs ) {
 add_filter( 'wpum_get_registered_profile_tabs', 'my_wpum_rearrange_profile_tabs', 100 );
 function my_wpum_rearrange_profile_tabs( $tabs ) {
 	$tabs['coins'] ['priority'] = 1;
-	$tabs['posts'] ['priority'] = 2;
-	$tabs['fetched'] ['priority'] = 3;
-	$tabs['removed'] ['priority'] = 4;
-	$tabs['about'] ['priority'] = 5;
+	$tabs['economy'] ['priority'] = 2;
+	$tabs['posts'] ['priority'] = 3;
+	$tabs['about'] ['priority'] = 4;
 	return $tabs; }
 	
 // Rename setting tabs

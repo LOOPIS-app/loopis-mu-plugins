@@ -1,9 +1,12 @@
 <?php
 /**
- * Plugin Name: WPUM cat fix
- * Description: Stop post category from resetting to default when editing a post using WPUM Frontend Posting.
- * Author: HH
- * Version: 1.0
+ * Plugin Name: WPUM Cat Fix
+ * Description: Stop post category from resetting to default when editing a post using WPUM Frontend Posting
+ * Version:     0.01
+ * Author:      The Develoopers
+ * Author URI:  https://loopis.org
+ * License:     GPL-3.0-or-later
+ * License URI: https://www.gnu.org/licenses/gpl-3.0.html
  */
 
 // Prevent direct access
